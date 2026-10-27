@@ -3,11 +3,11 @@ import numpy as np
 import pandas as pd
 from pathlib import Path
 
-layer = 40
-neuron = 25546
+layer = 58
+neuron = 7828
 pole = 1
 
-output_dir = Path("output")
+output_dir = Path("output/single_outputs/")
 output_dir.mkdir(parents=True, exist_ok=True)
 
 db = duckdb.connect()
